@@ -1,0 +1,23 @@
+.comparison{
+    width: 400px;
+}
+@media (max-width: 600px) {
+    .navsmall{
+        background-color: rgba(6, 156, 106, 0.425);
+    }
+    .comparison{
+        width: 200px;
+    }
+    .vis{
+        width: 500px;
+    }
+}
+
+@media (min-width:600px) and (max-width: 1400px) {
+    .comparison{
+        width: 300px;
+    }
+    .vis{
+        width: 500px;
+    }
+}
